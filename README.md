@@ -15,7 +15,7 @@ using garbageLogger.Logger;
 //                 Log dir   Log file name     Optional- default is true:
 //                       V   V                  choose to overwrite the log file each run
 Log Logger = new Log("logs", "Program.cs.log", overwrite=true);
-// English: Logger will log to `./logs/Program.cs.log` and will erase the log file each time the program is ran. 
+// `Logger` will log to `./logs/Program.cs.log` and will erase the log file each time the program is ran. 
 
 //           Message to log         Log level  
 Logger.Write("Information message", LogLevel.INFO);
