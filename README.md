@@ -5,7 +5,7 @@
 ## Description
 I fr have no idea wtf im doing.
 
-This project is a shit C# logger that supports five different logging levels: INFO, TASK, WARN, ERROR, and SUCCESS. The logger writes messages to the console and to a file specified by the user.
+This project is a shit C# logger that supports five different logging levels: `INFO`, `TASK`, `WARN`, `ERROR`, and `SUCCESS`. The logger writes messages to the console and to a file specified by the user.
 
 Made by [Yendy](https://github.com/YendisFish) and I for our [DAWN](https://github.com/The-Holy-Church-of-Terry-Davis/DAWN) project.
 
