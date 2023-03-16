@@ -12,9 +12,12 @@ Made by [Yendy](https://github.com/YendisFish) and I for our [DAWN](https://gith
 ## Usage
 ```csharp
 using garbageLogger.Logger;
+//                 Log dir   Log file name     Optional- default is true:
+//                       V   V                  choose to overwrite the log file each run
+Log Logger = new Log("logs", "Program.cs.log", overwrite=true);
+// English: Logger will log to `./logs/Program.cs.log` and will erase the log file each time the program is ran. 
 
-Log Logger = new Log("logs", "Program.cs.log");
-
+//           Message to log         Log level  
 Logger.Write("Information message", LogLevel.INFO);
 Logger.Write("Task message", LogLevel.TASK);
 Logger.Write("Warn message", LogLevel.WARN);
