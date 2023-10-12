@@ -14,7 +14,7 @@ Made by [Yendy](https://github.com/YendisFish) and I for our [DAWN](https://gith
 using garbageLogger.Logger;
 //                 Log dir   Log file name     Optional- default is true:
 //                       V   V                  choose to overwrite the log file each run
-Log Logger = new Log("logs", "Program.cs.log", overwrite=true);
+Log Logger = new("logs", "Program.cs.log", overwrite=true);
 // `Logger` will log to `./logs/Program.cs.log` and will erase the log file each time the program is ran. 
 
 //           Message to log         Log level  
